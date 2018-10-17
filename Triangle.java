@@ -56,6 +56,36 @@ public class Triangle
 		System.out.println("The volume of the rectangle is " + volume + " " + rectangleUnit + " cubed");
 		
 		
+		System.out.println("\n \n \n Now we are going to find the zero's of a function");
+		
+		System.out.println("Please input the A value:");
+		System.out.print("\t");
+		String aStr = Keyboard.nextLine();
+		double a = Double.parseDouble(aStr);
+		
+		System.out.println("Please input the B value:");
+		System.out.print("\t");
+		String bStr = Keyboard.nextLine();
+		double b = Double.parseDouble(bStr);
+		
+		System.out.println("Please input the C value:");
+		System.out.print("\t");
+		String cStr = Keyboard.nextLine();
+		double c = Double.parseDouble(cStr);
+		
+		double rootVal;
+		double squaredB = b * b;
+		double secondpartofroot = 4 * a * c;	
+		rootVal = squaredB -  secondpartofroot;
+		//need a if negitive loop
+		rootVal = Math.sqrt(rootVal);
+		rootVal = rootVal/(2*a)		
+		
+		double negitiveB = b * -1
+		negitiveB = negitiveB / (a*2)
+		zero1 = negitiveB - 
+		
+		
 		
 		
 	}
