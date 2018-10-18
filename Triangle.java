@@ -81,9 +81,12 @@ public class Triangle
 		rootVal = Math.sqrt(rootVal);
 		rootVal = rootVal/(2*a)		
 		
-		double negitiveB = b * -1
-		negitiveB = negitiveB / (a*2)
-		zero1 = negitiveB - 
+		double negitiveB = b * -1;
+		negitiveB = negitiveB / (a*2);
+		double zero1 = negitiveB - rootVal;
+		double zero2 = negitiveB + rootVal;
+		
+		System.out.println("The zeros are \n Zero 1 : " + zero1 + "\nZero2: " + zero2);
 		
 		
 		
