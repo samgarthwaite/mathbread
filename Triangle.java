@@ -79,7 +79,7 @@ public class Triangle
 		rootVal = squaredB -  secondpartofroot;
 		//need a if negitive loop
 		rootVal = Math.sqrt(rootVal);
-		rootVal = rootVal/(2*a)		
+		rootVal = rootVal/(2*a);		
 		
 		double negitiveB = b * -1;
 		negitiveB = negitiveB / (a*2);
